@@ -1,0 +1,27 @@
+\begin{center}
+\section*{\creationmonth}
+\end{center}
+
+%\def\day{\textit{\monthdayyeardate\today}}
+%\def\weekday{\textit{Tuesday}}
+\subsection*{\monthdayyeardate\today}
+Following the idea proposed in $2312.08228$. 
+\subsubsection*{U(1) Model Application}
+\begin{itemize}
+    \item Conflict between the U(1) model plaquette picture and the link picture.
+\end{itemize}
+
+\textbf{Problem:} 
+The Action in the U(1) model is a sum of cosine of the angle of the plaquettes, but in the link picture  it is the cosine of the sum of the angles of the links.
+%Action Equation
+\begin{equation}
+    S_{\text{plaquette}}^{2D} = \beta(L^2- \sum_{\text{j}=1}^{L}\sum_{\text{i}=1}^{L} \cos(\theta_{\text{i,j, \,plaquette}}))
+\end{equation}
+%Link Equation
+\begin{equation}
+    S_{\text{link}}^{2D} = \beta(L^2- \sum_{\text{j}=1}^{L}\sum_{\text{i}=1}^{L}\cos(\theta_{\text{i,j, \,link}}^{\mu=0}+\theta_{\text{i+1,j, \,link}}^{\mu=1}-\theta_{\text{i,j+1, \,link}}^{\mu=0}-\theta_{\text{i,j, \,link}}^{\mu=1}))
+\end{equation}
+Can we show that the plaquette picture is equivalent to the link picture in the Haar measure when we compute the partition function?
+
+\textbf{Solution:}
+The Haar measure is invariant under the transformation of the link variables.
