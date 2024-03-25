@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1711390755 "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" "main.pdf" "main" 1711390759 0
+["pdflatex"] 1711395615 "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" "main.pdf" "main" 1711395616 0
   "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" 1711381361 1888 abd43c2d38121f88e1878d1d31e79bcd ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -100,13 +100,13 @@
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1678549815 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 53a9aad02a5b14fbfbcc78ec177fdd6d ""
-  "2024/2024_March.aux" 1711390759 614 11ab7e04f8937388d9a653691b398fdb "pdflatex"
-  "2024/2024_March.tex" 1711390754 1235 e5f281fe98002b81c5909f732760b67a ""
-  "main.aux" 1711390759 705 a161bbe782c00200d3eb330100590875 "pdflatex"
+  "2024/2024_March.aux" 1711395616 614 3d6dcc8380562d028e4f81483e5d84b6 "pdflatex"
+  "2024/2024_March.tex" 1711395615 1785 54334a25b7cd0d79b80c59e3622f3089 ""
+  "main.aux" 1711395616 705 a161bbe782c00200d3eb330100590875 "pdflatex"
   "main.tex" 1711381361 1888 abd43c2d38121f88e1878d1d31e79bcd ""
-  "newyear.aux" 1711390759 606 87619aad68354a155d1413c53ad1db3e "pdflatex"
+  "newyear.aux" 1711395616 606 87619aad68354a155d1413c53ad1db3e "pdflatex"
   "newyear.tex" 1711381042 166 e38c718288afdfd9c1cebbbbb99e0b98 ""
-  "title.aux" 1711390759 606 e8e1c151039fc96ea86525af9439566e "pdflatex"
+  "title.aux" 1711395616 606 e8e1c151039fc96ea86525af9439566e "pdflatex"
   "title.tex" 1711381498 366 c2d01a59080183854f6e39908b52a564 ""
   (generated)
   "2024/2024_March.aux"
