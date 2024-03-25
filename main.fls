@@ -672,6 +672,18 @@ INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/graphic
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT ./main.out
+INPUT main.out
+INPUT ./main.out
+INPUT main.out
+INPUT ./main.out
+INPUT main.out
+INPUT ./main.out
+INPUT main.out
+INPUT ./main.out
+INPUT ./main.out
+OUTPUT main.out
+OUTPUT main.pdf
 INPUT ./title.tex
 INPUT ./title.tex
 INPUT ./title.tex
@@ -689,7 +701,6 @@ INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-OUTPUT main.pdf
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./newyear.tex
 INPUT ./newyear.tex
@@ -737,6 +748,8 @@ INPUT newyear.aux
 INPUT ./2024/2024_March.aux
 INPUT 2024/2024_March.aux
 INPUT 2024/2024_March.aux
+INPUT ./main.out
+INPUT ./main.out
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
