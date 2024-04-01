@@ -1,0 +1,40 @@
+\begin{center}
+\section*{\creationmonth}
+\end{center}
+
+%\def\day{\textit{\monthdayyeardate\today}}
+%\def\weekday{\textit{Tuesday}}
+\subsection*{\monthdayyeardate\today}
+
+\subsubsection*{Control Variate}
+Using Stein Operator to construct a Neural Network to approximate a function $g(\theta^{\mu}_{\text{i,j}})$ such that
+\begin{equation}
+    \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) = g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
+    \label{eq:control_variate}
+\end{equation}
+The Control Variate $f(\theta^{\mu}_{\text{i,j}})$ is then defined as
+\begin{equation}
+    f(\theta^{\mu}_{\text{i,j}}) =
+    \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) - g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
+\end{equation}
+By Schwinger-Dyson equation, we can show that the expectation value of the Control Variate in infite statistics limit is zero.
+\begin{equation}
+    \braket{f(\theta^{\mu}_{\text{i,j}})}_{\infty} = 0
+\end{equation}
+Now if we define a gauge invariant observable $O$ as
+    \begin{equation}
+        \braket{O}_F = \frac{1}{Z}\sum_{\text{a}=1}^{N}O([\theta^{\mu}_{\text{i,j}}]_a)e^{-S_{\text{link}}^{2D}[{\theta^{\mu}_{\text{i,j}}}]_a}
+    \end{equation}
+As $N\rightarrow\infty$ \begin{equation}
+    \braket{O}_F \rightarrow \braket{O}_\infty
+\end{equation}
+such that,
+\begin{equation}
+    \braket{O}_F-\sqrt{\braket{O^2}_F - \braket{O}_F^2}\leq \braket{O}_\infty \leq \braket{O}_F+\sqrt{\braket{O^2}_F - \braket{O}_F^2} 
+\end{equation}
+
+\subsubsection*{Neural Network}
+The Neural Network is constructed to approximate the function $g(\theta^{\mu}_{\text{i,j}})$ in Eq. \ref{eq:control_variate}. The Neural Network is trained to minimize the loss function $\mathcal{L}$, which can be defined as,
+\begin{equation}
+    \mathcal{L} = \frac{1}{N}\sum_{\text{a}=1}^{N}\{O([\theta^{\mu}_{\text{i,j}}]_a) - f([\theta^{\mu}_{\text{i,j}}]_a)\}^2
+\end{equation}

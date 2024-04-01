@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2024.2.23)  26 MAR 2024 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2024.2.23)  1 APR 2024 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,7 +429,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box100
-) (./main.aux (./title.aux) (./newyear.aux) (./2024/2024_March.aux))
+) (./main.aux (./title.aux) (./newyear.aux) (./2024/2024_March.aux) (./2024/2024_April.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -506,27 +506,34 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  (/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+)) [3
 
 
 
-{/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) [4] (./main.aux (./title.aux) (./newyear.aux) (./2024/2024_March.aux))
+{/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+\openout2 = `2024/2024_April.aux'.
+
+ (./2024/2024_April.tex) [4
+
+
+
+] (./main.aux (./title.aux) (./newyear.aux) (./2024/2024_March.aux) (./2024/2024_April.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13765 strings out of 476025
- 228719 string characters out of 5779036
- 1862388 words of memory out of 5000000
- 33977 multiletter control sequences out of 15000+600000
+ 13800 strings out of 476025
+ 229733 string characters out of 5779036
+ 1859388 words of memory out of 5000000
+ 33999 multiletter control sequences out of 15000+600000
  520434 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,12n,131p,1122b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,11n,131p,1122b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 144309 bytes).
+Output written on main.pdf (4 pages, 148277 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
