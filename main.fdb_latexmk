@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1711997592 "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" "main.pdf" "main" 1711997593 0
+["pdflatex"] 1712002514 "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" "main.pdf" "main" 1712002517 0
   "/Users/spaul3/Library/CloudStorage/Dropbox/research/computation/present_projects/machine_learning/NeuralControlVariate/main.tex" 1711990829 2088 819aa776a5d7a2fde31c3103b6944b62 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1678549815 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/map/fontname/texfonts.map" 1678549815 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -117,16 +117,16 @@
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1678549815 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/web2c/texmf.cnf" 1678549815 40748 4081c8bc921e56c865f975bd762e388c ""
   "/opt/homebrew/Cellar/texlive/20230313_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1678549815 7884066 53a9aad02a5b14fbfbcc78ec177fdd6d ""
-  "2024/2024_April.aux" 1711997593 825 c942ddf8c4d23d1faac331df52394039 "pdflatex"
-  "2024/2024_April.tex" 1711997592 1972 b2d3abb7db083e3c1e25c12404864a0a ""
-  "2024/2024_March.aux" 1711997593 753 300b2cf9b37e4253a8a7000a3ecf8edf "pdflatex"
-  "2024/2024_March.tex" 1711990875 3684 cf55539e88e95f52ed869456461a7c3f ""
-  "main.aux" 1711997593 734 4593290d7f1af6910e71e8250523ad65 "pdflatex"
-  "main.out" 1711997593 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "2024/2024_April.aux" 1712002517 825 c942ddf8c4d23d1faac331df52394039 "pdflatex"
+  "2024/2024_April.tex" 1712002514 1972 b2d3abb7db083e3c1e25c12404864a0a ""
+  "2024/2024_March.aux" 1712002517 753 300b2cf9b37e4253a8a7000a3ecf8edf "pdflatex"
+  "2024/2024_March.tex" 1712002374 3636 44d66076e84b9fd5d1b4058de5f73d47 ""
+  "main.aux" 1712002517 734 4593290d7f1af6910e71e8250523ad65 "pdflatex"
+  "main.out" 1712002516 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1711990829 2088 819aa776a5d7a2fde31c3103b6944b62 ""
-  "newyear.aux" 1711997593 745 a4be1357be6fa2716d90265b91e02db7 "pdflatex"
+  "newyear.aux" 1712002516 745 a4be1357be6fa2716d90265b91e02db7 "pdflatex"
   "newyear.tex" 1711381042 166 e38c718288afdfd9c1cebbbbb99e0b98 ""
-  "title.aux" 1711997593 745 3fddb862c68352c28895a1e260b6f85f "pdflatex"
+  "title.aux" 1712002516 745 3fddb862c68352c28895a1e260b6f85f "pdflatex"
   "title.tex" 1711381498 366 c2d01a59080183854f6e39908b52a564 ""
   (generated)
   "2024/2024_April.aux"

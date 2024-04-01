@@ -801,6 +801,8 @@ INPUT ./2024/2024_March.tex
 INPUT 2024/2024_March.tex
 INPUT ./2024/2024_March.tex
 INPUT 2024/2024_March.tex
+INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -838,8 +840,6 @@ INPUT ./2024/2024_April.tex
 INPUT 2024/2024_April.tex
 INPUT ./2024/2024_April.tex
 INPUT 2024/2024_April.tex
-INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /opt/homebrew/Cellar/texlive/20230313_3/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT main.aux
 INPUT ./title.aux
 INPUT ./title.aux
