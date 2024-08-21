@@ -22,7 +22,7 @@ The Action in the U(1) model is a sum of cosine of the angle of the plaquettes, 
 Can we show that the plaquette picture is equivalent to the link picture in the Haar measure when we compute the partition function?
 
 \textbf{Solution:}
-The Haar measure is invariant under the transformation of the link variables. If we choose a gauge where all link variables pointing along the time direction are rotated to the unit element which means \textbf{[Temporal Gauge]} $$\theta^{\mu=0}_{\text{i,j,\, link}} = 0 \,\,\,\forall\,\,\text{i, j}\in[1, L]$$
+The Haar measure is invariant under the transformation of the link variables. If we choose a gauge where all link variables pointing along the time direction are rotated to the unit element ($e^{i \theta}= 1\,\implies \theta=0$) which means in \textbf{[Temporal Gauge]} $$\theta^{\mu=0}_{\text{i,j,\, link}} = 0 \,\,\,\forall\,\,\text{i, j}\in[1, L]$$
 Then the link action becomes
 \begin{equation}
     S_{\text{link, temporal}}^{2D} = \beta(L^2- \sum_{\text{j}=1}^{L}\sum_{\text{i}=1}^{L}\cos(\theta_{\text{i,j, \,link}}^{\mu=1}-\theta_{\text{i+1,j, \,link}}^{\mu=1}))
@@ -33,28 +33,29 @@ Now we can see that the link action is equivalent to the plaquette action in the
 \end{equation}
 and we perform a change of variables such that $\theta_{\text{i,j, \,link}}^{\mu=1}  - \theta_{\text{i+1,j, \,link}}^{\mu=1}= \theta^{'}_{\text{i,j}}$ then we can see that the partition function is equivalent to the plaquette action in the Haar measure.
 
-% \subsubsection*{Control Variate}
-% Using Stein Operator to construct a Neural Network to approximate a function $g(\theta^{\mu}_{\text{i,j}})$ such that
-% \begin{equation}
-%     \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) = g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
-% \end{equation}
-% The Control Variate $f(\theta^{\mu}_{\text{i,j}})$ is then defined as
-% \begin{equation}
-%     f(\theta^{\mu}_{\text{i,j}}) =
-%     \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) - g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
-% \end{equation}
-% By Schwinger-Dyson equation, we can show that the expectation value of the Control Variate in infite statistics limit is zero.
-% \begin{equation}
-%     \braket{f(\theta^{\mu}_{\text{i,j}})}_{\infty} = 0
-% \end{equation}
-% Now if we define a gauge invariant observable $O$ as
-%     \begin{equation}
-%         \braket{O}_F = \frac{1}{Z}\sum_{\text{a}=1}^{N}O([\theta^{\mu}_{\text{i,j}}]_a)e^{-S_{\text{link}}^{2D}[{\theta^{\mu}_{\text{i,j}}}]_a}
-%     \end{equation}
-% As $N\rightarrow\infty$ \begin{equation}
-%     \braket{O}_F \rightarrow \braket{O}_\infty
-% \end{equation}
-% such that,
-% \begin{equation}
-%     \braket{O}_F-\sqrt{\braket{O^2}_F - \braket{O}_F^2}\leq \braket{O}_\infty \leq \braket{O}_F+\sqrt{\braket{O^2}_F - \braket{O}_F^2} 
-% \end{equation}
+\subsubsection*{Control Variate}
+Using Stein Operator to construct a Neural Network to approximate a function $g(\theta^{\mu}_{\text{i,j}})$ such that
+\begin{equation}
+    \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) = g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
+\end{equation}
+The Control Variate $f(\theta^{\mu}_{\text{i,j}})$ is then defined as
+\begin{equation}
+    f(\theta^{\mu}_{\text{i,j}}) =
+    \nabla_{\theta^{\mu}_{\text{i,j}}}g(\theta^{\mu}_{\text{i,j}}) - g(\theta^{\mu}_{\text{i,j}})\nabla_{\theta^{\mu}_{\text{i,j}}}S_{\text{link}}^{2D}
+    \label{eq:control_variate}
+\end{equation}
+By Schwinger-Dyson equation, we can show that the expectation value of the Control Variate in infinite statistics limit is zero.
+\begin{equation}
+    \braket{f(\theta^{\mu}_{\text{i,j}})}_{\infty} = 0
+\end{equation}
+Now if we define a gauge invariant observable $O$ as
+    \begin{equation}
+        \braket{O}_F = \frac{1}{Z}\sum_{\text{a}=1}^{N}O([\theta^{\mu}_{\text{i,j}}]_a)e^{-S_{\text{link}}^{2D}[{\theta^{\mu}_{\text{i,j}}}]_a}
+    \end{equation}
+As $N\rightarrow\infty$ \begin{equation}
+    \braket{O}_F \rightarrow \braket{O}_\infty
+\end{equation}
+such that,
+\begin{equation}
+    \braket{O}_F-\sqrt{\braket{O^2}_F - \braket{O}_F^2}\leq \braket{O}_\infty \leq \braket{O}_F+\sqrt{\braket{O^2}_F - \braket{O}_F^2} 
+\end{equation}
