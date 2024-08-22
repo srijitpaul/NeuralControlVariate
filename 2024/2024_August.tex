@@ -1,0 +1,29 @@
+\begin{center}
+\section*{\creationmonth}
+\end{center}
+
+\def\day{\textit{\monthdayyeardate\today}}
+\def\weekday{\textit{Thursday}}
+\section*{August 22, 2024, Hyunwoo}
+
+
+\section*{U(1) 3D Correlator}
+
+I'm working on mid-point correlator on $4^3$ lattice, where the signal-to-noise ratio is already bad. However I change the network structure (number of layers, neurons, or activation functions), I cannot improve the variance at all. Even it is very hard to find a network which improves the error around 1.1 times.
+
+The basic network structure is this. Since it is 3D, I used link variables as our integration measure. However, the input of the network is $\sin$ or $\cos$ of every plaquette angle $\theta_p$ on the lattice. Usually, my network takes input until $4\theta_p$. The function $g$ is vector-valued and translationally covariant for $f$ being translation invariant: 
+\begin{equation}
+    f(\theta_p) = \nabla_{\theta_l} \cdot g(\theta_p) - g(\theta_p) \cdot \nabla_{\theta_l} S(\theta_p). 
+\end{equation}
+
+My guess is we should not use $\cos$ as our input because the observable is the product of $\cos$'s and the action is also a sum of $\cos$'s.
+\begin{equation}
+    O(t) = \sum_{t'} \left( \sum_{x,y} \cos\left(\theta^{x,y,t'+t}_P\right)  \right)  \left( \sum_{x,y} \cos\left(\theta^{x,y,t'}_P \right)  \right)
+\end{equation}
+The notation here is $\theta_P^{x,y,t}$ represents the plaquette variable on xy-plane at the position (x, y, t). I see that the network is almost going to zero in this case by checking that the network parameters are very small, especially when the network gets deeper.
+
+However, this behavior also happens when my input of neural network is $\sin(\theta_p)$.
+
+\section*{Wilson loop on 2D open boundary condition} 
+
+I'm testing the vector-valued control variates. As we expected, the variance reduction gets worse as the area increases. While the construction using the factorization property has exponential improvement with respect to the area, the vector-valued control variates don't have such behavior.
